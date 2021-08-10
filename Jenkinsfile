@@ -10,6 +10,7 @@ pipeline {
             image: maven:alpine
           - name: node
             image: node:16-alpine3.12
+        '''
     }
   }
   stages {
